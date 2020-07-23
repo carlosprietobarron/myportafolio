@@ -1,0 +1,19 @@
+/* Coolors Exported Palette - https://coolors.co/2a416b-5181b7-9f927f-3a4655-6f4045 */
+
+/* CSV */
+2a416b,5181b7,9f927f,3a4655,6f4045
+
+/* Array */
+["2a416b","5181b7","9f927f","3a4655","6f4045"]
+
+/* Object */
+{"Dark Cornflower Blue":"2a416b","Glaucous":"5181b7","Grullo":"9f927f","Charcoal":"3a4655","Catawba":"6f4045"}
+
+/* Extended Array */
+[{"name":"Dark Cornflower Blue","hex":"2a416b","rgb":[42,65,107],"cmyk":[61,39,0,58],"hsb":[219,61,42],"hsl":[219,44,29],"lab":[28,5,-27]},{"name":"Glaucous","hex":"5181b7","rgb":[81,129,183],"cmyk":[56,30,0,28],"hsb":[212,56,72],"hsl":[212,41,52],"lab":[53,0,-33]},{"name":"Grullo","hex":"9f927f","rgb":[159,146,127],"cmyk":[0,8,20,38],"hsb":[36,20,62],"hsl":[36,14,56],"lab":[61,2,12]},{"name":"Charcoal","hex":"3a4655","rgb":[58,70,85],"cmyk":[32,18,0,67],"hsb":[213,32,33],"hsl":[213,19,28],"lab":[29,-1,-11]},{"name":"Catawba","hex":"6f4045","rgb":[111,64,69],"cmyk":[0,42,38,56],"hsb":[354,42,44],"hsl":[354,27,34],"lab":[33,21,6]}]
+
+/*github icon */
+<i class="fab fa-github-square"></i> 
+<i class="fab fa-linkedin"></i>
+<i class="fas fa-envelope-square"></i>
+<i class="fab fa-twitter-square"></i>

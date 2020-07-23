@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,+EAA+E",
+    "sources": [
+        "../resources/palette3.sass"
+    ],
+    "names": [],
+    "file": "palette3.css"
+}

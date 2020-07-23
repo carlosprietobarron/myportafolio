@@ -1,0 +1,72 @@
+.card {
+    perspective: 150rem;
+    position: relative;
+    &__side {  
+      
+      height: 30rem;
+      width: 100%;
+      backface-visibility: hidden;
+      transition: all 2s;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 3px;
+      box-shadow: 0 1.5rem 7rem rgba(0, 0, 0, 0.589)
+    }
+
+    &__side--front{
+        background-color: whitesmoke;
+    }
+
+    &__side--back{
+        height: 30rem;
+        background-image: linear-gradient(to right bottom, $primary-color-light,$primary-color-dark);
+        transform: rotateY(180deg);
+    }
+
+    &:hover &__side--front{
+        transform: rotateY(180deg) 
+    }
+
+    &:hover &__side--back{
+        transform: rotateY(0deg) 
+    }
+
+    &_img-front {
+        width: 100%
+    }
+}
+
+.project__card {
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+
+    &-head {
+        text-align: center;
+        height: 15%
+
+        &--h4 {
+            font-size: 2rem;
+            font-weight: 600;
+            
+        }
+    }
+
+    &-body {
+        font-size: 1rem;
+        text-align: justify;
+        background-color:$primary-color-dark;
+        color: $secondary-color-light;
+        height: 75%;
+    }
+
+    &-icons {
+        height: 10%;
+        font-size: 3rem;
+        text-align: right;
+        align-content: flex-end; 
+        padding-top: 2rem;
+    }
+
+}

@@ -1,0 +1,41 @@
+.section--about {
+    margin-top: -15%;
+    background-color: $secondary-color-light;
+    padding: 20rem 0;
+}
+
+.laptop-screen {
+    width: 100%;
+    margin-top: 4rem;
+    opacity: 0.5;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: radial-gradient(
+        ellipse at top center,
+        rgba(255,255,255,1),
+        transparent 80%
+      )
+}
+
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-image: linear-gradient(to right, $primary-color-light, $primary-color-dark);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .3rem;
+    transition: all .5s;
+
+    &:hover {
+        transform: skewY(2deg) skewX(15deg) scale(1.1);
+        text-shadow: .7rem 2rem 2rem rgba(black, .5) 
+    }
+}
+
+.section--projects {
+    margin-top: -2%;
+    background-color: #C5CAE9;
+    padding: 2rem 0;
+}

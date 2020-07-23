@@ -1,0 +1,73 @@
+.composition {
+    position: relative;
+
+    &__logo {
+        width: 20%;
+        box-shadow: 0 1.5rem 4rem $color-black;
+        position: absolute;
+        border-radius: 50%;
+        z-index: 10;
+        height: 14rem;
+        width: 14rem;
+      
+        &--java {
+            left: 20rem;
+            top: 6rem;
+            z-index: 11;
+        }
+
+        &--rails {
+            left: 29rem;
+            top: 0rem;
+            z-index: 12;
+        }
+
+        &--csharp {
+            left: 40rem;
+            top: 0;
+           
+        }
+
+        &--javascript {
+            left: 48rem;
+            top: 5rem;
+            
+        }
+
+        &--sql {
+            left: 45rem;
+            top: 15rem;
+           
+        }
+
+        &--redux {
+            left: 36rem;
+            top: 18rem;
+        }
+
+        &--react {
+            left: 26rem;
+            top: 14rem;
+        }
+
+        &--python {
+            left: 42rem;
+            top: 0rem;
+        }
+
+        &--data {
+            left: 22rem;
+            top: 0rem;
+        }
+        
+        &:hover {
+            // outline: .5rem solid $primary-color-light;
+            transform: scale(1.2);
+            z-index: 20;
+        }
+    }
+
+    &:hover &__logo:not(:hover) {
+        transform: scale(.8);
+    }
+}
