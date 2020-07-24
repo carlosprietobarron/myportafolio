@@ -42,14 +42,28 @@
 
 .main--left {
   grid-area: main--content;
+  overflow: hidden;
 }
 
 .main--right {
   grid-area: side--bar; 
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+
+  &-logo {
+    border-radius: 34%;
+    padding: .5rem;
+    height: 10rem;
+    width: 10rem;
+   }
 }
 
 .footer-page--grid {
   grid-area: footer;
+  z-index: 100;
 }
 
 .col-logos {
@@ -72,14 +86,17 @@
     height: 7rem;
     width: 100%;
     min-width: 95vw;
+    z-index: 30;
 
     &-left {
+    z-index: 100;
      width: 25%;
      min-width: 25%;
      background-color: $primary-color;
      background-image: linear-gradient(to right, $primary-color-light, $primary-color-dark);
     }
     &-right {
+      z-index: 100;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -90,9 +107,7 @@
       background-image: linear-gradient(to right, $primary-color-dark, $primary-color-light);
      }
 
-     &-logos {
-      
-     }
+    
 
      .footer-logo {
       border-radius: 50%;

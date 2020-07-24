@@ -446,6 +446,20 @@ body {
   text-shadow: 0.7rem 2rem 2rem rgba(0, 0, 0, 0.5);
 }
 
+.heading-secondary-h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  background-image: -webkit-gradient(linear, left top, right top, from(#C5CAE9), to(#303F9F));
+  background-image: linear-gradient(to right, #C5CAE9, #303F9F);
+  display: inline-block;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .3rem;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
 .section--projects {
   margin-top: -2%;
   background-color: #C5CAE9;
@@ -502,6 +516,7 @@ body {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: main--content;
+  overflow: hidden;
 }
 
 .main--right {
@@ -509,6 +524,25 @@ body {
   -ms-grid-row-span: 2;
   -ms-grid-column: 2;
   grid-area: side--bar;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main--right-logo {
+  border-radius: 34%;
+  padding: .5rem;
+  height: 10rem;
+  width: 10rem;
 }
 
 .footer-page--grid {
@@ -516,6 +550,7 @@ body {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: footer;
+  z-index: 100;
 }
 
 .col-logos {
@@ -543,9 +578,11 @@ body {
   height: 7rem;
   width: 100%;
   min-width: 95vw;
+  z-index: 30;
 }
 
 .page__footer-left {
+  z-index: 100;
   width: 25%;
   min-width: 25%;
   background-color: #3F51B5;
@@ -554,6 +591,7 @@ body {
 }
 
 .page__footer-right {
+  z-index: 100;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

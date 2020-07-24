@@ -34,6 +34,18 @@
     }
 }
 
+.heading-secondary-h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-image: linear-gradient(to right, $primary-color-light, $primary-color-dark);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .3rem;
+    transition: all .5s;
+}
+
 .section--projects {
     margin-top: -2%;
     background-color: #C5CAE9;
