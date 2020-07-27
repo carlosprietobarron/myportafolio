@@ -1,3 +1,12 @@
+.row-cards{
+    display: grid;
+    grid-gap: .5rem;
+    min-height: 70rem;
+    padding: 18px 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 .card {
     perspective: 150rem;
     position: relative;
@@ -33,7 +42,8 @@
     }
 
     &_img-front {
-        width: 100%
+        width: 100%;
+        max-height: 30rem;
     }
 }
 
